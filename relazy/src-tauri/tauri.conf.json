@@ -1,18 +1,18 @@
 {
   "$schema": "https://schema.tauri.app/config/2",
-  "productName": "my-tauri-app",
+  "productName": "relazy",
   "version": "0.1.0",
-  "identifier": "com.my-tauri-app.app",
+  "identifier": "dev.agiro.relazy",
   "build": {
-    "beforeDevCommand": "npm run dev",
+    "beforeDevCommand": "yarn dev",
     "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "npm run build",
+    "beforeBuildCommand": "yarn build",
     "frontendDist": "../dist"
   },
   "app": {
     "windows": [
       {
-        "title": "my-tauri-app",
+        "title": "relazy",
         "width": 800,
         "height": 600
       }
@@ -31,10 +31,5 @@
       "icons/icon.icns",
       "icons/icon.ico"
     ]
-  },
-  "allowlist": {
-    "app": {
-      "all": true
-    }
   }
 }
